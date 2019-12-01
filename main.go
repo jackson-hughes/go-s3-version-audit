@@ -30,7 +30,7 @@ func findStateBucket() (stateBucket string, err error) {
 			continue
 		}
 	}
-	return "", errors.New("Unable to find state bucket")
+	return "", errors.New("unable to find state bucket")
 }
 
 func getVersioningStatus(bucket string) (bucketVersioningStatus string, err error) {
